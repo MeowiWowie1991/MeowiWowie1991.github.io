@@ -1,16 +1,16 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');font-family: 'Raleway', sans-serif;
 
 body {
-  margin: 0;
+  margin: 16px;
 }
 
 article {
-  padding:0 1em;
+  padding:1.8em;
 }
 
 section{
-  margin: 1em;
-  padding: 1em;
+  margin: 1.8em;
+  padding: 1.8em;
 }
 
 header, main, footer {
@@ -28,6 +28,10 @@ header section {
 }
 
 header img {
+  /* Make avatars round */
+#spMainContainer .spAvatar {
+border-radius: 50%;
+}
 
 }
 
