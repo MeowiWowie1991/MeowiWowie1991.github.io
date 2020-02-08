@@ -20,8 +20,20 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+body {
+  background: url(RainyDay.jpg);
 }
+
+
+<!--
+header {
+  padding: 2em;
+  text-align: center;
+  /*background-image: url('RainyDay.jpg');*/
+}
+-->
+
+
 
 header section {
   margin: 0 auto;
