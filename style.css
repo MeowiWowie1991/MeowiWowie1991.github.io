@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');font-family: 'Raleway', sans-serif;
+/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
 
 body {
-  margin: 16px;
+  margin: 0;
 }
 
 article {
-  padding:1.8em;
+  padding:0 1em;
 }
 
 section{
-  margin: 1.8em;
-  padding: 1.8em;
+  margin: 1em;
+  padding: 1em;
 }
 
 header, main, footer {
@@ -20,30 +20,14 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-body {
-  background: url(RainyDay.jpg);
+  /*background-image: url('sciezka');*/
 }
-
-
-<!--
-header {
-  padding: 2em;
-  text-align: center;
-  /*background-image: url('RainyDay.jpg');*/
-}
--->
-
-
 
 header section {
   margin: 0 auto;
 }
 
 header img {
-  /* Make avatars round */
-#spMainContainer .spAvatar {
-border-radius: 50%;
-}
 
 }
 
